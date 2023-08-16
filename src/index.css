@@ -1,11 +1,13 @@
 body{
   margin: 0;
-}
-.App{
   height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.landing{
+  margin: 100px;
+  text-align: center;
 }
 h2{
   box-sizing: border-box;
@@ -62,4 +64,50 @@ h2{
 }
 .err{
   color:red;
+}
+
+
+
+/** nav */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.brandName {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.feed {
+  font-size: 18px;
+  cursor: pointer;
+  padding : 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.login,
+.register {
+  margin-left: 20px;
+  cursor: pointer;
 }
